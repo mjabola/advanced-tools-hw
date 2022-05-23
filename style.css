@@ -4,6 +4,18 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  .preview-img {
+    display: none;
+  }
+  .about-author h2 {
+    font-size: 50px;
+  }
+  .about-author h3 {
+    font-size: 25px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -12,12 +24,12 @@ h3 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   opacity: 0.7;
 }
 
 h2 {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 h3 {
