@@ -8,11 +8,21 @@
   .preview-img {
     display: none;
   }
+  .about-author h1 {
+    font-size: 15px;
+  }
   .about-author h2 {
     font-size: 50px;
   }
   .about-author h3 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .app-preview {
+    margin: 20px auto;
+    
+  }
+  .about-author a {
+    font-size: 23px;
   }
 }
 
@@ -79,7 +89,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 30px;
   text-decoration: none;
 }
 
